@@ -1,0 +1,144 @@
+<!--Developed by Chiranjivi Kant on 30 May 2021-- >
+<!-- Survey Form 2021 Version 1.0 -->
+<!-- https://github.com/chiranjivikant1 -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" >
+    <title>Survey Form</title>
+	<link rel="stylesheet" href="style1.css">
+  </head>
+  
+  <body class="body_class" >
+  <div  >
+  <h2 class="top_banner "  >  Survey Form</h2>
+  <div >
+    <form>
+	<div >
+      <label   for="fname"><strong>First Name: </strong></label>
+
+      <input class="make_width input_box" type="text" id="fname" name="fname" placeholder="First Name">
+	  <br><br>
+          <label  for="fname"><strong>Last Name: </strong></label> 
+      <input class="make_width input_box" type="text"  id="lname" name="lname" placeholder="Last Name">
+	  </div>
+      <br> 
+	  <div>
+      <label for="Email"><strong> Email: </strong> </label>
+      <input class="make_width input_box" type="email" id="email" name="email" placeholder="Email">
+	  </div>
+      <br><br>
+	  <div>
+      <label for="experience"> <strong>Your Experience</strong></label><br><br>
+	  <small>Overall, how would you rate your Experience with us?</small><br><br>
+	  <span class="star-rating star-5">
+  <input type="radio"  name="rating" value="1"><i></i>
+  <input type="radio" name="rating" value="2"><i></i>
+  <input type="radio" name="rating" value="3"><i></i>
+  <input type="radio" name="rating" value="4"><i></i>
+  <input type="radio"  name="rating" value="5"><i></i>
+</span>
+<br><br>
+
+	  
+      
+       </div>
+  </div>
+
+  <div >
+    <Label for="radio survey"> <strong> How satisfied are you with</strong></label><br><br>
+    <table class="table"  >
+      <tr>
+        <td> </td>
+        <th><small>Very Unsatisfied</small> </th>
+        <th><small>Unsatisfied </small></th>
+        <th><small> Neutral</small></th>
+        <th><small> Satisfied</small></th>
+        <th> <small>Very Satisfied</small></th>
+      </tr>
+      <tr>
+        <td>Purchase            </td>
+        <td id="radio_button"> <input type="radio" id="radio_button" name="1" value="1"></td>
+        <td id="radio_button"><input type="radio" id="radio_button" name="1" value="2"> </td>
+        <td id="radio_button"> <input type="radio" id="radio_button" name="1" value="3"></td>
+        <td id="radio_button"> <input type="radio" id="radio_button" name="1" value="4"> </td>
+        <td id="radio_button">  <input type="radio"checked  id="radio_button" name="1" value="5"></td>
+      </tr>
+      <tr>
+        <td> Service</td>
+        <td id="radio_button"><input type="radio" id="radio_button" name="2" value="1"> </td>
+        <td id="radio_button"><input type="radio" id="radio_button" name="2" value="2"> </td>
+        <td id="radio_button"> <input type="radio" id="radio_button" name="2" value="3"></td>
+        <td id="radio_button"> <input type="radio" id="radio_button" name="2" value="4"> </td>
+        <td id="radio_button"> <input type="radio"checked  id="radio_button" name="2" value="5"></td>
+      </tr>
+      <tr>
+        <td>Company Overall </td>
+        <td id="radio_button"><input type="radio" id="radio_button" name="3" value="1"> </td>
+        <td id="radio_button"> <input type="radio" id="radio_button" name="3" value="2"></td>
+        <td id="radio_button"> <input type="radio" id="radio_button" name="3" value="3"></td>
+        <td id="radio_button"> <input type="radio" id="radio_button" name="3" value="4"> </td>
+        <td id="radio_button"><input type="radio" checked id="radio_button" name="3" value="5"> </td>
+      </tr>
+    </table>
+    <br><br>
+    <Label for="radio_survey2"><strong> How likely are you to </strong></label><br><br>
+    <table class="table" >
+      <tr>
+      <tr>
+        <td> </td>
+        <th><small>Very Unsatisfied</small> </th>
+        <th><small>Unsatisfied </small></th>
+        <th><small> Neutral</small></th>
+        <th><small> Satisfied</small></th>
+        <th> <small>Very Satisfied</small></th>
+      </tr>
+      </tr>
+      <tr>
+        <td> Buy from us again?</td>
+        <td id="radio_button"><input type="radio" id="radio_button" name="4" value="1"> </td>
+        <td id="radio_button"><input type="radio" id="radio_button" name="4" value="2"> </td>
+        <td id="radio_button"><input type="radio" id="radio_button" name="4" value="3"> </td>
+        <td id="radio_button"> <input type="radio" id="radio_button" name="4" value="4"> </td>
+        <td id="radio_button"> <input type="radio" id="radio_button" checked name="4" value="5"></td>
+      </tr>
+      <tr>
+        <td> Recommend our product to others?</td>
+        <td id="radio_button"><input type="radio" id="radio_button" name="5" value="1"> </td>
+        <td id="radio_button"> <input type="radio" id="radio_button" name="5" value="2"></td>
+        <td id="radio_button"><input type="radio" id="radio_button" name="5" value="3"> </td>
+        <td id="radio_button">  <input type="radio" id="radio_button" name="5" value="4"></td>
+        <td id="radio_button"> <input type="radio" id="radio_button" checked name="5" value="5"></td>
+      </tr>
+      <tr>
+        <td> Recommend our company to others?</td>
+        <td id="radio_button"><input type="radio"  id="radio_button" name="6" value="1"> </td>
+        <td id="radio_button"> <input type="radio" id="radio_button" name="6" value="2"> </td>
+        <td id="radio_button"> <input type="radio" id="radio_button" name="6" value="3"></td>
+        <td id="radio_button"> <input type="radio" id="radio_button" name="6" value="4"></td>
+        <td id="radio_button"><input type="radio" id="radio_button" checked name="6" value="5"> </td>
+      </tr>
+    </table>
+	</div>
+    <br><br>
+	<div  >
+    <label for="comments"> <Strong> Additional Comments and Suggestions:</strong></label><br>
+    <br>
+    <textarea class="textarea make_width input_box" style="font-size:20px" name="" rows="4" cols="70" >
+
+</textarea>
+<br><br>
+	<div style="align:center">
+    <button class="button"   onclick="" target="_blank"> <Strong>Submit</strong></button>
+	</div>
+  </div>
+  
+  </form>
+</div>
+</body>
+
+</HTML>
