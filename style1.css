@@ -53,11 +53,14 @@ https://github.com/chiranjivikant1
 }
 
 .container {
-  border-radius: 5px;
-  
-  
-  
+  border-radius: 5px;  
 }
+
+.mandatory ::after{
+content:" *" ;
+color: red;
+}
+
 .top_banner{
 	background-color: slateblue;
 	text-align: center;
